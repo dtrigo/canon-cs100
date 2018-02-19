@@ -16,6 +16,8 @@ To prepare the chroot you need a debian/ubuntu computer, an external 2.5" disk a
 
 ```
 apt-get install debootstrap
+cd ~
+mkdir debian-wheezy
 debootstrap --arch mipsel --foreign wheezy ~/debian-wheezy
 
 ```
