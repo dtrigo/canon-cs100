@@ -50,7 +50,8 @@ apt-get update && apt-get install openssh-server
 passwd 
 
 ```
-  * You can use the start_chroot.sh to automount/start the chrooted debian, add/edit services you need:
+
+  * You can use the start_chroot.sh to automount/start the chrooted debian (I assumed installation of nfs-kernel-server and samba), add/edit services you need (Also I attached the kernel modules to install/use nfsd):
 
 ```
 CHR=/home/debian-wheezy
