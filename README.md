@@ -1,4 +1,5 @@
 # Chroot Debian on a canon cs100 
+CAUTION: USE AT YOUR OWN RISK, we didn't take any r esponsibility about this procedure. It is given as is.
 
 (this document is based on the firmware 2.5.2)
 
